@@ -1,0 +1,7 @@
+body{
+    height: 1000px;
+    background: linear-gradient(120deg, #7C1B73, #4C0F56, #44065F);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
