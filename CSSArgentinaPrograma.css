@@ -5,3 +5,60 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+div{
+    border-style: solid;
+    border-width: 1px;
+}
+
+#login{
+    background-color: #7C1B73;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#loginIco{
+    filter: invert(90%);
+}
+
+#contBanner{
+    height: 430px;
+}
+
+#banner{
+    position:absolute;
+    border-radius: 20px;
+}
+
+#perfil{
+    position:absolute;
+    top: 450px;
+    left : 135px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;    
+    z-index: 1;    
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    filter: invert(70%)
+}
+
+.blanca{
+    background-color: aliceblue;
+}
+
+#colName{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#name{
+    font-size:x-large;
+}
+
+#degree{
+    font-size:large;
+}
