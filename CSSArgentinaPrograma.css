@@ -21,29 +21,19 @@ div{
     filter: invert(90%);
 }
 
-#contBanner{
-    height: 430px;
-}
-
 #banner{
-    position:absolute;
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 
-#perfil{
-    position:absolute;
-    top: 450px;
-    left : 135px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;    
-    z-index: 1;    
+#perfil{    
+    width: 200PX;
+    border-radius: 100px;        
 }
 
 .icon{
     width: 40px;
     height: 40px;
-    filter: invert(70%)
+    filter: invert(70%);
 }
 
 .blanca{
@@ -51,8 +41,10 @@ div{
 }
 
 #colName{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
 }
 
 #name{
