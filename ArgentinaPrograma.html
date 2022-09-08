@@ -31,7 +31,7 @@
                     <a class="nav-link" href="https://www.whatsapp.com/?lang=es"><img src="Imagenes/whatsapp.png" class="icon"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" id="login"><img src="Imagenes/login.png" class=icon id="loginIco"></a>
+                    <a class="nav-link colBorder" href="#" ><img src="Imagenes/login.png" class="icon" id="loginIco" ></a>
                   </li>
                 </ul>
               </div>
@@ -41,22 +41,84 @@
           <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="Imagenes\banner.png" id="banner" class="img-responsive" width="100%">
+                    <img src="Imagenes\banner.png" class="img-responsive colBorder" width="100%">
                 </div>
             </div>
             <div class="row">
-              <div class="col-10 blanca" id="colName">
+              <div class="col-10 blanca colBorder" id="colName" class="colBorder">
                   <img src="Imagenes\foto4x4.jpg" id="perfil">
-                  <p id="name">Lautaro Nahuel Romero Collar</p>
-                  <p id="degree">Full stack developer junior</p>
+                  <p class="fs-1">Lautaro Nahuel Romero Collar</p>
+                  <p class="fs-2">Full stack developer junior</p>
+                  <button type="button" class="btn btn-dark" id="btn">Descargar CV</button>
               </div>
             </div>
           </div>  
           
-          <div class="container blanca">
-            <p>Acerca de mi:</p>
-            <p>Diooos quiero terminar yaaa AAAAAAAAAAAAAAAAA  </p>
+          <div class="container">
+            <div class="row">
+              <div class="col blanca colBorder" id="colAcerca">
+                <p class="fs-1 lh-base">Acerca de mi:</p>
+                <p id="presentacion" class="fs-4 lh-base">Tengo 21 años, soy un apasionado por la informática y me encanta programar. En mis tiempos libres me gusta tocar la guitarra y jugar videojuegos con mis amigos.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 blanca colBorder" id="colXp">
+                <p class="fs-1 lh-base">Proyectos: </p>
+              </div>
+            </div>
+            <div class="row" class="rowPro">
+              <div class="col-2" id="colImgPro">
+                <img src="Imagenes\icono_obra.png" width="100%" class="blanca colBorder">
+              </div>
+              <div class="col blanca" id="proyecto1">
+                <p class="fs-2 lh-base">Título de proyecto</p>
+                <p class="fs-4 lh-base">Cuerpo del proyecto</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 blanca colBorder" id="colEdu">
+                <p class="fs-1 lh-base">Educación: </p>
+              </div>
+            </div>
+            <div class="row" class="rowPro" id="colImgEdu">
+              <div class="col-2">
+                <a href="https://colegiosolari.edu.ar" target="_blank"><img src="Imagenes\solari.png" width="100%" class=" blanca colBorder"></a>
+              </div>
+              <div class="col blanca" id="proyecto1">
+                <p class="fs-2 lh-base">Educación primaria</p>
+                <p class="fs-4 lh-base">Realizada en el colegio "Monseñor Tomás Juan Solari" (2006-2012).</p>
+              </div>
+            </div>
+            <div class="row" class="rowPro" id="colImgEdu2">
+              <div class="col-2">
+                <a href="https://colegiosolari.edu.ar" target="_blank"><img src="Imagenes\solari.png" width="100%" class=" blanca colBorder"></a>
+              </div>
+              <div class="col blanca" id="proyecto1">
+                <p class="fs-2 lh-base">Educación secundaria</p>
+                <p class="fs-4 lh-base">Realizada en el colegio "Monseñor Tomás Juan Solari" con título Técnico Informático Personal y Profesional (2012-2019).</p>
+              </div>
+            </div>
+            <div class="row" class="rowPro" id="colImgEdu3">
+              <div class="col-2">
+                <a href="https://www.unlam.edu.ar" target="_blank"><img src="Imagenes\unlam.png" width="100%" class="blanca colBorder"></a>
+              </div>
+              <div class="col blanca" id="proyecto1">
+                <p class="fs-2 lh-base">Educación superior</p>
+                <p class="fs-4 lh-base">Realizándose en la "Universidad Nacional de La Matanza"(UNLaM) desde el año 2021.</p>
+                <p class="fs-4 lh-base">Total de materias aprobadas: 4.</p>
+              </div>
+            </div>            
           </div>
+
+            <div class="container-fluid text-center p-3" id="footer">
+              <div class="row">
+                <div class="col">
+                  <p id="copyright" style="color: white">&copy;2022 Romero Collar Lautaro Nahuel </p>
+                </div>
+              </div>
+              
+            </div>
+
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>
