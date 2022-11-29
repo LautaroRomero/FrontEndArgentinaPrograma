@@ -1,0 +1,103 @@
+body{
+    height: 1000px;
+    background: linear-gradient(120deg, #7C1B73, #4C0F56, #44065F);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div{
+    border-style: 1;
+    border-width: 1px;
+}
+#btn{
+    margin-bottom: 2%;
+}
+#perfil{    
+    width: 200px;
+    border-radius: 100px;    
+    margin-top: 0.5%;    
+}
+
+#colName{
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    background-color: aliceblue;
+}
+
+#proyecto1{
+    margin-left: 1%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#presentacion{
+    margin-left: 2.5%;
+}
+
+#footer{
+    background-color: #520968;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    filter: invert(70%);
+}
+
+.blanca{
+    background-color: white;
+}
+
+.colBorder{
+    border-radius: 20px;
+}
+
+#colImgEdu{
+    margin-bottom: 1%;
+}
+
+#colImgEdu2{
+    margin-bottom: 1%;
+}
+
+#colImgEdu3{
+    margin-bottom: 1%;
+}
+#login{
+    
+    background-size: contain;
+}
+
+#loginIco{
+    filter: invert(90%);
+    background-color: #84d48c;
+    border-radius: 10px;
+}
+
+#colAcerca{
+    margin-top: 4%;
+}
+
+#name{
+    font-size: x-large;
+}
+
+#degree{
+    font-size:large;
+}
+
+#colXp{
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+}
+
+#colEdu{
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+.textoblanco{
+    color: antiquewhite;
+}
