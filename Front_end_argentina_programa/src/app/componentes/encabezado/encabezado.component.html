@@ -1,4 +1,4 @@
-<!--Banner y presentacion-->
+<!--Banner-->
 <div class="container">
     <div class="row">
         <div class="col">
@@ -6,11 +6,33 @@
         </div>
     </div>
     <div class="row">
-      <div class="col blanca colBorder" id="colName" class="colBorder">
-          <img src="assets/foto4x4.jpg" id="perfil">
-          <p class="fs-1">Lautaro Nahuel Romero Collar</p>
-          <p class="fs-2">Full stack developer junior</p>
-          <button type="button" class="btn btn-dark" id="btn">Descargar CV</button>
-      </div>
+        <div class="col derecha">
+            <app-editbutton></app-editbutton>
+        </div>    
     </div>
-  </div>  
+
+<!--Presentacion-->
+    <div class="container blanca colBorder" id="colName">
+        <div class="row justify-content-end">
+          <div class="col-4 centrar">
+            <img src="assets/foto4x4.jpg" id="perfil">
+          </div>
+          <div class="col-4">
+            <app-editbutton></app-editbutton>
+          </div>
+        </div>
+
+        <div class="row text-center">
+            <p class="fs-1">Lautaro Nahuel Romero Collar</p>
+        </div>
+        <div class="row text-center">
+            <p class="fs-2">Full stack developer junior</p>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <button type="button" class="btn btn-dark" id="btn">Descargar CV</button>
+            </div>
+        </div>
+    </div>
+
+    

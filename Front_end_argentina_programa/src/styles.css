@@ -9,6 +9,7 @@ body{
 div{
     border-style: 1;
     border-width: 1px;
+
 }
 #btn{
     margin-bottom: 2%;
@@ -16,12 +17,12 @@ div{
 #perfil{    
     width: 200px;
     border-radius: 100px;    
-    margin-top: 0.5%;    
+    margin-top: 0.5%; 
+    margin-bottom: 1%;   
 }
 
 #colName{
     margin: auto;
-    text-align: center;
     margin-top: 2%;
     background-color: aliceblue;
 }
@@ -54,17 +55,6 @@ div{
     border-radius: 20px;
 }
 
-#colImgEdu{
-    margin-bottom: 1%;
-}
-
-#colImgEdu2{
-    margin-bottom: 1%;
-}
-
-#colImgEdu3{
-    margin-bottom: 1%;
-}
 #login{
     
     background-size: contain;
@@ -90,7 +80,7 @@ div{
 
 #colXp{
     margin-top: 4%;
-    margin-bottom: 1.5%;
+    margin-bottom: 2%;
 }
 
 #colEdu{
@@ -98,6 +88,53 @@ div{
     margin-bottom: 1.5%;
 }
 
-.textoblanco{
-    color: antiquewhite;
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+.zoom{
+    transition:transform .5s;
+}
+
+.zooms:hover{
+    transform: scale(1.2);
+}
+
+.zooms{
+    transition:transform .5s;
+}
+
+.aclarar:hover{
+    filter: brightness(125%);
+}
+
+.aclarar{
+    transition:brightness .5s;
+}
+
+.lblanca{
+    color: aliceblue;
+}
+
+.lgris{
+    color: #bdbdbd;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.derecha{
+    display: flex;
+    justify-content: right;
+}
+
+.mediovert{
+    display: flex;
+    align-items: center;
+}
+
+.cardmargen{
+    margin-bottom: 2%;
 }

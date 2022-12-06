@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="container d-flex justify-content-center align-items-center mb-5">
+  <div class="row col-sm-4">
+    <form>
+      <div class="mb-3">
+        <p class="lblanca h2">Registro</p>
+        <label for="inputEmailRegistro" class="form-label lblanca" >Email</label>
+        <input type="email" class="form-control" id="inputEmailRegistro" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text lgris">Nunca compartiremos tu información con nadie.</div>
+      </div>
+      <div class="mb-3">
+        <label for="inputContraRegistro" class="form-label lblanca">Contraseña</label>
+        <input type="password" class="form-control" id="inputContraRegistro">
+      </div>
+      <button type="submit" class="btn btn-primary">Registrarme</button>
+      <div class="mt-2"><p class="lblanca">Si ya tenés una cuenta, clickeá acá para <button class="btn btn-outline-light" routerLink="/login">ingresar</button></p></div>
+      
+    </form>
+  </div>
+</div>
+
+<app-footer></app-footer>

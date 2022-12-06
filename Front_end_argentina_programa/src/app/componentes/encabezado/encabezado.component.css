@@ -1,0 +1,16 @@
+#perfil{    
+    width: 200px;
+    border-radius: 100px;    
+    margin-top: 0.5%; 
+    margin-bottom: 1%;   
+}
+
+#btn{
+    margin-bottom: 2%;
+}
+
+#colName{
+    margin: auto;
+    margin-top: 2%;
+    background-color: aliceblue;
+}

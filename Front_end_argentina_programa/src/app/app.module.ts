@@ -10,6 +10,15 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { ModalloginComponent } from './componentes/modallogin/modallogin.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { RegistroComponent } from './componentes/registro/registro.component';
+import { IndexComponent } from './componentes/index/index.component';
+import { EditbuttonComponent } from './componentes/editbutton/editbutton.component';
+import { CrossbuttonComponent } from './componentes/crossbutton/crossbutton.component';
+import { AddbuttonComponent } from './componentes/addbutton/addbutton.component';
+import { LoginbuttonComponent } from './componentes/loginbutton/loginbutton.component';
+import { LogoutbuttonComponent } from './componentes/logoutbutton/logoutbutton.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +29,16 @@ import { FooterComponent } from './componentes/footer/footer.component';
     ProyectosComponent,
     EducacionComponent,
     SkillsComponent,
-    FooterComponent
+    FooterComponent,
+    ModalloginComponent,
+    LoginComponent,
+    RegistroComponent,
+    IndexComponent,
+    EditbuttonComponent,
+    CrossbuttonComponent,
+    AddbuttonComponent,
+    LoginbuttonComponent,
+    LogoutbuttonComponent
   ],
   imports: [
     BrowserModule,
